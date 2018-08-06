@@ -1,6 +1,6 @@
 var playlist = {Sum41: "War"};
 
-function updatePlatlist(plObject, artist,song){
+function updatePlaylist(plObject, artist,song){
   plObject[artist] = song;
   return plObject;
 }
